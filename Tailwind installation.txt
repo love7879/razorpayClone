@@ -1,0 +1,21 @@
+ step-1: open terminal in vscode.
+        
+         <!--using postcss tailwind-->
+
+ step-2: npm install -D tailwindcss postcss autoprefixer vite.
+
+ step-3: npx tailwindcss init -p.
+
+ step-4: Add "*" in  content: [""] in your tailwind.config.js file.
+
+ step-5: Add 
+             "scripts": {
+    "start": "vite"
+  },   in your package.json file. 
+
+  
+ step-6: create a main.css file and @tailwind base; add these line to your main.css file.
+                                    @tailwind components;
+                                    @tailwind utilities;
+
+ step-7:To run your file type,  npm run start in terminal. 
